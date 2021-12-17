@@ -25,3 +25,17 @@ There is one more benefit here, When we're done with one of these applications, 
 `$. docker compose down --rmi all`
 
 because each application runs with its dependencies inside an isolated environment, we can safely remove an application, with all its dependencies to clean up our machine, isn't that great?
+
+
+## Virtual Machines vs Container
+
+**Container: ** => An isolated environment for running an applications.
+**Virtual Machine** => is an abstraction of a machine (physical hardware), so we can run several virtual machines on a real physical machine, for example we have a mac, and on this mac, we can run two virtual machines, one running windows and other running linux. with virtual machine you can isolate the environments, but in this way, your system memory will be divided into several chunks. But if you use `docker` you will not have such a problem.
+
+**Containers Advantages** => 
+
+1. Allow running multipe apps in isolation
+2. Are lightweight
+3. Use OS of the host
+4. Start quickly
+5. Need less harware resources
