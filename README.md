@@ -39,3 +39,7 @@ because each application runs with its dependencies inside an isolated environme
 3. Use OS of the host
 4. Start quickly
 5. Need less harware resources
+
+## Installing Docker
+
+
