@@ -23,3 +23,5 @@ This isolated environment, allows multiple applications, use different versions 
 There is one more benefit here, When we're done with one of these applications, and don't want to work on it any more, we can remove the application and all of it's dependencies in one go, without docker as we work on different projects, our development machine gets cluttered with so many libraries and tools that are used by different applications, and then after a while, we don't know if we can remove one or more of these tools, because we're always afraid that we would mess up with some application, with docker we don't have to worry about this.
 
 `$. docker compose down --rmi all`
+
+because each application runs with its dependencies inside an isolated environment, we can safely remove an application, with all its dependencies to clean up our machine, isn't that great?
