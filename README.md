@@ -19,3 +19,7 @@ with `Docker` we can package our application, with everything it needs, and run 
 Instead, they simply tell `docker` => `$. docker compose up` => bring up your application, and docker itself will automatically download and install all the dependencies, inside an isolated environment called `container` => **This is the beauty of docker**
 
 This isolated environment, allows multiple applications, use different versions of some software side by side, So one application make use Node version 14 and another application make use of Node version 9, all these applications can run side by side, on the same machine without messing each other. So this is how docker allows us to consistently run our applications on different machines.
+
+There is one more benefit here, When we're done with one of these applications, and don't want to work on it any more, we can remove the application and all of it's dependencies in one go, without docker as we work on different projects, our development machine gets cluttered with so many libraries and tools that are used by different applications, and then after a while, we don't know if we can remove one or more of these tools, because we're always afraid that we would mess up with some application, with docker we don't have to worry about this.
+
+`$. docker compose down --rmi all`
