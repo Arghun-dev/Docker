@@ -40,6 +40,14 @@ because each application runs with its dependencies inside an isolated environme
 4. Start quickly
 5. Need less harware resources
 
-## Installing Docker
+## Docker in Action
 
+for example you wanna run a simple js file in your system, `app.js` and you're gonna run this file with command `node app.js`, 
+
+If you're not using Docker: you have to do all these steps to run this file:
+
+1. Start with an OS
+2. Install Node
+3. Copy app files
+4. Run node app.js
 
